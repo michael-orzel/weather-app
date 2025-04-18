@@ -3,7 +3,7 @@ import backgroundImage from "./assets/weather-app-bg.jpg";
 
 function App() {
   const [weather, setWeather] = useState(null);
-  const [city, setCity] = useState("New York");
+  const [city, setCity] = useState("Chicago");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
