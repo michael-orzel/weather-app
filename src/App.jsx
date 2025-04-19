@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div 
-        className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4 bg-cover bg-center"
+        className="min-h-screen max-h-full bg-gray-100 flex flex-col justify-center items-center p-4 bg-cover bg-center"
         style={{
             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(${backgroundImage})`, 
         }}
